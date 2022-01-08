@@ -1,10 +1,5 @@
-let max = 100;
-let num = 1;
-let count = 0;
-
-while(num < max){
-  num = num*2;
-  count = count + 1;
+.box1 {
+  background-color: #FF0000;
+  height: 200px;
+  width: 200px;
 }
-
-alert('2を掛け続けて' + max + 'を超えるのに必要だった回数は' + count + '回です')
