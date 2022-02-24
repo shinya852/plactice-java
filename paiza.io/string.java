@@ -22,5 +22,13 @@ public class Main {
     System.out.println(word.substring(12)); // 12-末尾を抜き出す
 
     // 文字列の置き換え
+    word = word.replace("Java", "shinya");
+    System.out.println(word);
+
+    // 文字列と数列の連結
+    int a = 10;
+    int b = 11;
+    String question = a + "X" + b + "=?";// questionに一括で定義しておくと定義づけしたものを入れるだけなので下記の書式が分かりやすくなる
+    System.out.println(question);
   }
 }
