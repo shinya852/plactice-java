@@ -30,5 +30,9 @@ public class Main {
     int b = 11;
     String question = a + "X" + b + "=?";// questionに一括で定義しておくと定義づけしたものを入れるだけなので下記の書式が分かりやすくなる
     System.out.println(question);
+
+    // ランダム変数
+    Random rnd = new Random();
+    System.out.println(rnd.nextInt(10)); // 0-9までの範囲でランダム出力
   }
 }
