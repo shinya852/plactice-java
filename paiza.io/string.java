@@ -34,5 +34,10 @@ public class Main {
     // ランダム変数
     Random rnd = new Random();
     System.out.println(rnd.nextInt(10)); // 0-9までの範囲でランダム出力
+
+    int d = rnd.nextInt(100); // 0-99のランダム数を表示
+    int e = rnd.nextInt(100);
+    String questions = d + "x" + e + "=?"; // a*b=?と表示
+    System.out.println(questions);
   }
 }
