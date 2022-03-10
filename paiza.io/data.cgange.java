@@ -17,5 +17,14 @@ public class Main {
     intB = (int) doubleB; // doubleBをキャスト変換する(int)
     System.out.println(intB);
 
+    //文字列
+    String stringC = "12345";
+    String stringD = "1234.567";  //文字列(""で挟むのを忘れない！error1件)
+    int intC = Integer.parseInt(stringC); //文字列→int
+    double doubleD = Double.parseDouble(stringD); //文字列→doubel
+    System.out.println(intC + 1);
+    System.out.println(doubleD + 1);
+
+
   }
 }
